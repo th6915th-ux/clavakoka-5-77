@@ -19,6 +19,7 @@ int main()
     //ф-я 1:
 
     //ф-я 2:
+    cout << "Mass" << "\t" <<  "Color" << "\t" << "Species" << endl;
 
     //ф-я 3:
 
