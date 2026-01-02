@@ -37,7 +37,7 @@ int main()
     for(const auto &characs : allparrots)
     {
         cout << endl;
-        cout << characs.mass << "\t" << characs.color  << "\t" << characs.species << endl;
+        wcout << characs.mass << "\t" << characs.color  << "\t" << characs.species << endl;
     }
     //ф-я 3:
     ofstream out("out.bin", ios::binary);
