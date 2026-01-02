@@ -17,7 +17,21 @@ int main()
 {
     setlocale(LC_ALL, "RUSSIAN");
     //ф-я 1:
-
+    wifstream inFile("popugi.txt");
+    if(!inFile.is_open())
+    {
+        cout << "Ошибка" << endl;
+        return 0;
+    }
+    vector<parrots> allparrots;
+    while(!inFile.eof())
+    {
+        parrots characs;
+        inFile >> characs.mass;
+        inFile >> characs.color;
+        inFile >> characs.species;
+        allparrots.push_back(characs);
+    }
     //ф-я 2:
 
     //ф-я 3:
