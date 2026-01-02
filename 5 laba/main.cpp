@@ -26,5 +26,10 @@ int main()
         cout << characs.mass << "\t" << characs.color  << "\t" << characs.species << endl;
     }
     //ф-я 3:
-
+    ofstream out("out.bin", ios::binary);
+    for(const auto &characs : allparrots)
+    {
+        out.write(reinterpret_cast<const char*>(&characs), sizeof(parrots));
+    }
+    return 0;
 }
