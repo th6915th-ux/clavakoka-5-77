@@ -23,6 +23,15 @@ int main()
         cout << "Ошибка" << endl;
         return 0;
     }
+    vector<parrots> allparrots;
+    while(!inFile.eof())
+    {
+        parrots characs;
+        inFile >> characs.mass;
+        inFile >> characs.color;
+        inFile >> characs.species;
+        allparrots.push_back(characs);
+    }
     //ф-я 2:
 
     //ф-я 3:
