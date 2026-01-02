@@ -17,7 +17,6 @@ int main()
 {
     setlocale(LC_ALL, "RUSSIAN");
     //ф-я 1:
-    wifstream inFile("popugi.txt");
 
     //ф-я 2:
 
