@@ -18,6 +18,11 @@ int main()
     setlocale(LC_ALL, "RUSSIAN");
     //ф-я 1:
     wifstream inFile("popugi.txt");
+    if(!inFile.is_open())
+    {
+        cout << "Ошибка" << endl;
+        return 0;
+    }
     //ф-я 2:
 
     //ф-я 3:
