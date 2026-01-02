@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1767365761 source:c:\users\timur\documents\c++\5 laba\main.cpp
+	<iostream>
+	<fstream>
+	<locale>
+	<vector>
+	<sstream>
+
