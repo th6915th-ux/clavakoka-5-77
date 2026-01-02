@@ -20,7 +20,11 @@ int main()
 
     //ф-я 2:
     cout << "Mass" << "\t" <<  "Color" << "\t" << "Species" << endl;
-
+    for(const auto &characs : allparrots)
+    {
+        cout << endl;
+        cout << characs.mass << "\t" << characs.color  << "\t" << characs.species << endl;
+    }
     //ф-я 3:
 
 }
